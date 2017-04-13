@@ -9,3 +9,4 @@ fi
 sudo ln -s /usr/local/bin/pip /usr/bin/pip
 
 pip install numpy
+pip install pandas
