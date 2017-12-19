@@ -24,8 +24,9 @@ pip3 install pytest pytest-cov
 # create virtual environment directory
 apt-get install -y virtualenv
 
-mkdir $HOME/virtual_py
-virtualenv $HOME/virtual_py
+virtualenv -p python3 $HOME/virtual_py
+chgrp haven $HOME/virtual_py
+chown haven $HOME/virtual_py
 
 echo "alias python='python3'" >> ~/.bashrc
 echo "alias pip='pip3'" >> ~/.bashrc
