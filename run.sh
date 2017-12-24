@@ -28,7 +28,7 @@ sudo -u haven virtualenv -p python3 $HOME/virtual_py
 echo "alias python='python3'" >> ~/.bashrc
 echo "alias pip='pip3'" >> ~/.bashrc
 echo "alias notebook='jupyter-notebook'" >> ~/.bashrc
-echo "alias act-vir='$HOME/virtual_py/bin/activate'" >> ~/.bashrc
+echo "alias act-vir='source $HOME/virtual_py/bin/activate'" >> ~/.bashrc
 echo "alias deact-vir='deactivate'" >> ~/.bashrc
 
 version="2017.3.1"
