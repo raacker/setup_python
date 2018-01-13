@@ -38,4 +38,4 @@ wget -O $HOME/Downloads/pycharm.tar.gz https://download.jetbrains.com/python/pyc
 
 tar -xf $HOME/Downloads/pycharm.tar.gz --directory $HOME
 echo "export PYCHARM_HOME='$HOME/pycharm-community-$version'" >> ~/.bashrc
-echo "alias pycharm='sudo $PYCHARM_HOME/bin/pycharm.sh'" >> ~/.bashrc
+echo "alias pycharm='sudo nohup $PYCHARM_HOME/bin/pycharm.sh &'" >> ~/.bashrc
