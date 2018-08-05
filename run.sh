@@ -31,7 +31,7 @@ echo "alias notebook='jupyter-notebook'" >> ~/.bashrc
 echo "alias act-vir='source $HOME/virtual_py/bin/activate'" >> ~/.bashrc
 echo "alias deact-vir='deactivate'" >> ~/.bashrc
 
-version="2017.3.1"
+version="2018.2"
 # install pycharm
 apt-get install -y openjdk-8-jre
 wget -O $HOME/Downloads/pycharm.tar.gz https://download.jetbrains.com/python/pycharm-community-$version.tar.gz
